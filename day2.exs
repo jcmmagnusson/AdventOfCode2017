@@ -27,10 +27,10 @@ defmodule Day2 do
   defp divide_row([_ | []]), do: 0
 
   defp divide_row(num_row) do
-    blabla(num_row) + divide_row(tl(num_row))
+    row_sum(num_row) + divide_row(tl(num_row))
   end
 
-  defp blabla([x | xs]) do
+  defp row_sum([x | xs]) do
     xs
     |> Enum.map(fn num -> divide(x, num) end)
     |> Enum.sum()
