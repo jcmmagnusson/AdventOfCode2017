@@ -41,5 +41,5 @@ defmodule Day2 do
   defp divide(_, _),                     do: 0
 end
 
-IO.puts Day2.calculate_checksum("day2.txt") # Part 1
-IO.puts Day2.divide_thingey("day2.txt")     # Part 2
+IO.puts Day2.calculate_checksum("input") # Part 1
+IO.puts Day2.divide_thingey("input")     # Part 2

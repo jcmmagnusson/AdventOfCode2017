@@ -46,6 +46,5 @@ defmodule Day1 do
 
 end
 
-IO.puts Day1.calculate_captcha_1("day1a.txt") # Part 1
-#IO.puts Day1.calculate_2([1, 1, 1, 1])
-IO.puts Day1.calculate_captcha_2("day1a.txt") # Part 2
+IO.puts Day1.calculate_captcha_1("input") # Part 1
+IO.puts Day1.calculate_captcha_2("input") # Part 2
