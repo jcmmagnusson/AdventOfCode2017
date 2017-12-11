@@ -11,8 +11,8 @@ defmodule Day11 do
   defp traverse_grid("nw", s), do: update_state(s, 1, 0, -1)
   defp traverse_grid("n", s),  do: update_state(s, 0, 1, -1)
   defp traverse_grid("ne", s), do: update_state(s, -1, 1, 0)
-  defp traverse_grid("se", s), do: update_state(s, -1, 0, +1)
-  defp traverse_grid("s", s),  do: update_state(s, 0, -1, +1)
+  defp traverse_grid("se", s), do: update_state(s, -1, 0, 1)
+  defp traverse_grid("s", s),  do: update_state(s, 0, -1, 1)
   defp traverse_grid("sw", s), do: update_state(s, 1, -1, 0)
 
   defp update_state(s, dx, dy, dz) do
